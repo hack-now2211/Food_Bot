@@ -19,14 +19,13 @@ except ImportError:
     fuzzywuzzy_available = False
     print("fuzzywuzzy not available. Using basic string matching.")
 
+import spacy
 try:
-    import spacy
-    spacy_available = True
     nlp = spacy.load("en_core_web_sm")
-except ImportError:
-    spacy_available = False
-    nlp = None
-    print("spaCy not available. Using NLTK for NLP processing.")
+except OSError:
+    from spacy.cli import download
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, 
