@@ -1,0 +1,32 @@
+tasty bites
+burger - 120
+pizza - 200
+french fries - 80
+cheese burger - 150
+chicken wrap - 160
+chocolate shake - 90
+mango mojito - 70
+coke - 50
+sandwich - 100
+garlic bread - 60
+
+desi delight
+chicken biryani - 180
+paneer tikka - 160
+butter naan - 40
+dal makhani - 120
+jeera rice - 90
+paneer butter masala - 150
+roti - 20
+mineral water - 30
+gulab jamun - 60
+masala chai - 40
+
+healthy bites
+grilled chicken salad - 180
+quinoa bowl - 220
+avocado toast - 160
+fruit smoothie - 120
+vegetable wrap - 150
+protein shake - 130
+greek yogurt - 90
