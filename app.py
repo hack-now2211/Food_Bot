@@ -562,4 +562,6 @@ def process_message():
         })
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
+    port=int(os.environ.get("PORT", 5000))
+    debug=os.environ.get("DEBUG", "false").lower() == "true"
+    app.run(debug=debug, port=port, host='0.0.0.0')
