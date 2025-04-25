@@ -1,0 +1,6 @@
+Flask
+nltk
+textblob
+fuzzywuzzy  # If you intend to use fuzzywuzzy
+spacy       # If you intend to use spacy
+gunicorn    # Recommended for production
