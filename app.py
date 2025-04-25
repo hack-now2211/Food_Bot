@@ -26,7 +26,7 @@ except OSError:
     from spacy.cli import download
     download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
-    
+
 try:
     import spacy
     spacy_available = True
@@ -563,7 +563,3 @@ def process_message():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
-    # app.run(debug=True)  # Uncomment for local development
-    # Note: For production, consider using a WSGI server like Gunicorn or uWSGI
-    # and set up a reverse proxy with Nginx or Apache.
-    # Also, ensure to set environment variables for sensitive data and configurations.
